@@ -9,6 +9,7 @@ let mostra_o_secundario = $('#card-jogador-secundario');
  Para exibir o personagem secundário que você
  vai adicionar ao time do seu colega, altere
  o valor da variável abaixo para 'display', 'block'.
+ Testando alteracoes no codigo, (comentário) 
 */
 mostra_o_secundario.css('display', 'block');
 
