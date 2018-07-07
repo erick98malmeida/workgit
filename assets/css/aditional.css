@@ -1,0 +1,28 @@
+.col-sm-6 {
+    display: flex;
+}
+
+#jogador-principal, #jogador-secundario {
+	background-color: #f7f7f7;
+	border-radius: 10px;
+	border: solid 1px #eee;
+	height: 80vh;
+	left: 0;
+	overflow-y: auto;
+	padding: 20px;
+	position: absolute;
+}
+
+.flex {
+	display: flex;
+}
+
+#jogador-principal:not(.show),
+#jogador-secundario:not(.show) {
+    display: none;
+}
+
+#skills {
+	display: block;
+	padding: 20px;
+}
