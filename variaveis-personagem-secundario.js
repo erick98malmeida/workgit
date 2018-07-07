@@ -10,7 +10,7 @@ let mostra_o_secundario = $('#card-jogador-secundario');
  vai adicionar ao time do seu colega, altere
  o valor da variável abaixo para 'display', 'block'.
 */
-mostra_o_secundario.css('display', 'none');
+mostra_o_secundario.css('display', 'block');
 
 /*
  Aqui foram definidas as variáveis do personagem secundário. Não precisa mexer aqui. :)
@@ -36,9 +36,9 @@ tipo_personagem2_2.html('Venenoso');
 tipo_personagem2_3.html('Fantasma');
 tipo_personagem2_4.html('Sombrio');
 
-forca_personagem_2.css('width', '20%');
-carisma_personagem_2.css('width', '20%');
-sabedoria_personagem_2.css('width', '30%');
-velocidade_personagem_2.css('width', '40%');
-regeneracao_personagem_2.css('width', '50%');
-magica_personagem_2.css('width', '100%');
+forca_personagem_2.css('width', '10%');
+carisma_personagem_2.css('width', '15%');
+sabedoria_personagem_2.css('width', '20%');
+velocidade_personagem_2.css('width', '35%');
+regeneracao_personagem_2.css('width', '40%');
+magica_personagem_2.css('width', '70%');
